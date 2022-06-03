@@ -17,6 +17,6 @@ function multiply(a, b){
 ## Courses:
    * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 ## Languages:
-   * English – my level of English is in the range of B1 INTERMEDIATE to B2 UPPER INTERMEDIATE (according to the online test at [EFSET](https://www.efset.org/)
+   * English – my level of English is in the range of B1 INTERMEDIATE to B2 UPPER INTERMEDIATE (according to the online test at [EFSET](https://www.efset.org/) )
    * Ukrainian - Native
    * Russian - Native
