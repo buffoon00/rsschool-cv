@@ -1,0 +1,148 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #2670d1;
+   
+    max-width: 1440px;
+    margin: 0 auto;
+      
+    min-height: 100vh;
+   
+    padding: 2rem;
+    background-color: #e6e2d4;
+}
+* {
+    box-sizing: border-box;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ecf6fc;
+}  
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 20px;
+    width: 70%;
+}
+.container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 20px;
+    width: 30%;
+    background-color: #181d32;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    list-style: none;
+}
+.nav-link {
+    padding: 0 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: rgb(238, 245, 238);
+   
+    text-decoration: none;
+    
+    transition: .3s;
+}
+.nav-link:hover {
+    color: #493b88;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+html {
+    scroll-behavior: smooth; 
+  }
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #fcfcfd;
+    background-color: rgb(136, 164, 243);
+    padding: 10px 50px;
+    text-align: center;
+    border-block: solid grey 1px;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+.link {
+    text-decoration: none;
+    color: #9d8eb9;
+    transition: color 0.5s;
+}
+  
+.link:hover {
+    color: #260bc2;
+}
+.header {
+    background-color: #b4d7e7;
+}
+.footer {
+    background-color: #b4d7e7;
+    
+}
+.list-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+.figure {
+    margin: 0;
+    padding: 10px;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+}
+.main-title {
+    font-size: 50px;
+    text-align: start;
+}
+.section-right {
+    margin: 10px 80px 10px 60px;
+    background-color: #ecf6fc;
+}
+.contacts-list {
+    padding: 10px 50px;
+    text-align: start;
+}
+.skills-list {
+    padding: 10px 50px;
+    text-align: start;
+}
+.courses-list {
+    padding: 10px 50px;
+    text-align: start;
+}
+.education-list {
+    padding: 10px 50px;
+    text-align: start;
+}
+.Languages-list {
+    padding: 10px 50px;
+    text-align: start;
+}
+.code {
+    padding: 10px 10px;
+    text-align: start;
+}
+.aboutmyself {
+    padding: 10px 50px;
+    text-align: start;
+}
