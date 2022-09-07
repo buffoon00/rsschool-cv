@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+      </head>
+  <body>
+    <header class="header">
+         <div class="div header_burger">
+            <div class="burger_line burger_line_first"></div>
+            <div class="burger_line burger_line_second"></div>
+            <div class="burger_line burger_line_third"></div>
+         </div>         
+            <nav class="nav">
+                <div class="header_nav_close">
+                    <span class="header_nav_close_line"></span>
+                    <span class="header_nav_close_line"></span>
+                </div>
+                <ul class="nav-list">
+                   <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                   <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                   <li class="nav-item"><a href="#Aboutmyself" class="nav-link">About myself</a></li>
+                   <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                   <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                   <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>               
+                   <li class="nav-item"><a href="#Languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>                
+         
+    </header>
+    <main class="main main-container">
+        <div class="container-left">
+            <div class="section">
+                <figure class="figure">
+                  <img src="./assets/image/image.jpg" alt="my photo" class="myphoto_left">
+                </figure> 
+            </div>
+            <section class="section" id="contacts">
+               <h2 class="section-title">Contacts</h2>
+               <ul class="contacts-list">
+                  <li><span>Location:</span> Kyiv, Ukraine</li>
+                  <li><span>Email:</span> <a href="mailto:todorovich.ute@gmail.com" class="link">todorovich.ute@gmail.com</a></li>
+                  <li><span>Tel:</span> +38(096) 248 34 34</li>
+                  <li><span>Github:</span> <a href="https://github.com/buffoon00" class="link" target="_blank">buffoon00</a></li>
+               </ul>               
+            </section>
+            
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2> 
+                <ul class="skills-list">
+                    <Li>HTML</Li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </section>         
+            <section class="section" id="Languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="Languages-list">
+                   <li>English – my level of English is in the range of B1 INTERMEDIATE to B2 UPPER INTERMEDIATE </li>
+                   <li>Russian - native</li>
+                   <li>Ukrainian - native</li>                   
+                </ul>               
+             </section>                       
+        </div>
+        <div class="container-right">
+            <section class="section-right" id="profile">
+                <figure class="figure">
+                    <img src="./assets/image/image.jpg" alt="my photo" class="myphoto_right">
+                  </figure> 
+                <h1 class="main-title">KATERYNA<br>
+                    TODOROVYCH </h1> 
+                    <p>Front-End developer</p>               
+            </section>
+            <section class="section" id="Aboutmyself">
+                <h2 class="section-title">About myself</h2> 
+                <p class="aboutmyself">I'm 44 years old and I worked about last 16 years as HVAC engineer in different local companies. Now I feel that my actual work doesn't give me a necessary professional growth. I want to train for a new profession so I go to RSSchool. My goal is to learn Front-End Development and to became expert in this.</p>
+            </section> 
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2> 
+                <ul class="courses-list">
+                    <li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="education-list">
+                    <li>Kyiv Politechnical Institute</li>
+                </ul>
+            </section>  
+            
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                   <pre><code class="code">
+                    function digits(n) {
+                        const c = n.toString();
+                        return c.length;
+                    }                                                
+                </code></pre>
+            </section>
+            <section class="section" id="myproject">
+                <h2 class="section-title">My Project</h2>
+                   
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container list-footer">
+             <a href="https://rs.school/js-stage0/" class="link" target="_blank"><img src="assets/rs_school_js.ico" alt="icon rsschool" class = "rsschool_icon"></a>
+             <p>&copy; 2022</p>
+             <a href="https://github.com/buffoon00" class="link" target="_blank"><img src="assets/git3.ico" class="git" alt="icon git"></a>
+        </div>       
+    </footer>
+    <script src="index.js"></script>    
+  </body>
+</html>
